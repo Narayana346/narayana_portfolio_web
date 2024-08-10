@@ -44,7 +44,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Narayana Maharana";
+            document.title = "Portfolio | Karshika Roy";
             $("#favicon").attr("href", "Assets/images/portfolio.png");
         }
         else {
@@ -155,8 +155,6 @@ return;
   title: 'Oops...',
   text: 'Invalid Email Address!',
 })
-return;
-
   }
 
 
@@ -164,7 +162,7 @@ return;
 
   Email.send({
     To : 'maharanan14@gmail.com',
-    From : 'maharanan14@gmail.com',
+    From : email,
     Subject : "Message send through Portfolio by :" +name,
     Body : bodym
 }).then(
