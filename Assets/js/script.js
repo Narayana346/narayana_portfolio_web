@@ -44,7 +44,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Karshika Roy";
+            document.title = "Portfolio | Narayanan_Maharana";
             $("#favicon").attr("href", "Assets/images/portfolio.png");
         }
         else {
