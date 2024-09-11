@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "narayana_portfolio_web",
+    "public": "narayana_portfolio_web/index.html",
     "ignore": [
       "firebase.json",
       "**/.*",
