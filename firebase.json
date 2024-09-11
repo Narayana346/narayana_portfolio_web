@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "narayana_portfolio_web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
