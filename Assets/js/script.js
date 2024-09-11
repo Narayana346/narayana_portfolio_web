@@ -45,7 +45,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Narayanan_Maharana";
-            $("#favicon").attr("href", "Assets/images/portfolio.png");
+            $("#favicon").attr("href", "Assets/images/profile.png");
         }
         else {
             document.title = "Come Back To Portfolio";
