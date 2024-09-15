@@ -58,9 +58,9 @@ document.addEventListener('visibilitychange',
 var typed = new Typed(".typing-text", {
     strings: ["Back-End development", "Front-End development"],
     loop: true,
-    typeSpeed: 50,
-    backSpeed: 25,
-    backDelay: 500,
+    typeSpeed: 70,
+    backSpeed: 30,
+    backDelay: 700,
 });
 // <!-- typed js effect ends -->
 

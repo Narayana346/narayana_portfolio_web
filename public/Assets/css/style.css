@@ -310,7 +310,7 @@ header .navbar ul li a:hover {
 /* hero media queries starts*/
 @media (max-width: 650px) {
   .home2 .btn {
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
   .socials {
     margin-top: 12rem;
@@ -319,16 +319,19 @@ header .navbar ul li a:hover {
     margin-top: 2rem;
   }
   .home2 .content p {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .home2 .content h2 {
-    margin-top: 3rem;
+    margin-top: 5rem;
     font-size: 3rem;
     font-weight: 800;
   }
   .home2 .content h2 span {
     font-size: 3rem;
     font-weight: 800;
+  }
+  .home2 .content p span {
+    font-size: 2rem;
   }
 }
 /* hero media queries ends*/
