@@ -79,7 +79,7 @@ header .logo {
   color: #ffffff;
 }
 header .logo i {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
 }
 header .logo:hover {
   color: #fc8c05;
@@ -308,21 +308,27 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts*/
-@media (max-width: 450px) {
-  .home22 .btn {
+@media (max-width: 650px) {
+  .home2 .btn {
     margin: 4rem 0;
   }
   .socials {
     margin-top: 12rem;
   }
-  .home22 .image img {
-    margin-top: -12rem;
+  .home2 .image img {
+    margin-top: 2rem;
   }
-  .home22 .content p {
+  .home2 .content p {
     font-size: 2.2rem;
   }
-  .home22 .content p span {
-    font-size: 2.2rem;
+  .home2 .content h2 {
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .home2 .content h2 span {
+    font-size: 3rem;
+    font-weight: 800;
   }
 }
 /* hero media queries ends*/

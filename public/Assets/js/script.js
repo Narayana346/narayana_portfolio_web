@@ -64,13 +64,13 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-async function fetchData(type = "skills") {
-    let response
-    type === "skills" ?
-    response = await fetch("skills.json"):response = await fetch("./projects/projects.js")
-    const data = await response.json();
-    return data;
-}
+// async function fetchData(type = "skills") {
+//     let response
+//     type === "skills" ?
+//     response = await fetch("skills.json"):response = await fetch("./projects/projects.js")
+//     const data = await response.json();
+//     return data;
+// }
  
 
 function showSkills(skills) {
