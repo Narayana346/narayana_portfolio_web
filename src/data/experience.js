@@ -1,0 +1,32 @@
+export const experience = [
+  {
+    dot: "bg-primary",
+    icon: "location_on",
+    title: "Aspiring Java Backend Developer",
+    badge: "2023 – Present",
+    badgeColor: "text-code-cyan",
+    place: "Bengaluru, Karnataka, India",
+    placeColor: "text-terminal-amber",
+    desc: "Actively designing, implementing, and profiling robust server-side microservices with Spring Boot and Hibernate. Deep dive into Core Java multi-threading, concurrency control mechanisms, complex SQL optimization, and clean architectural domain decoupling.",
+  },
+  {
+    dot: "bg-secondary",
+    icon: "school",
+    title: "Java Full Stack Development, Pankaj Sir Academy",
+    badge: "2023 – Present",
+    badgeColor: "text-secondary",
+    place: "Bengaluru, Karnataka, India",
+    placeColor: "text-secondary",
+    desc: "Comprehensive full-stack training covering Java, Servlets, Spring, HTML, CSS and Bootstrap for building dynamic, production-style web applications across both front-end and back-end layers.",
+  },
+  {
+    dot: "bg-tertiary",
+    icon: "school",
+    title: "B.Tech in Mechanical Engineering",
+    badge: "Graduated 2023 · CGPA 8.32",
+    badgeColor: "text-tertiary",
+    place: "Government College of Engineering, Bhawanipatna",
+    placeColor: "text-tertiary",
+    desc: "Graduated with a CGPA of 8.32. Self-taught programming and backend development alongside coursework, building a foundation in analytical problem-solving, data structures and object-oriented design that carried over into software engineering.",
+  },
+];
