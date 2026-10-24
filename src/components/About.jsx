@@ -27,7 +27,7 @@ export default function About() {
         {/* Left: Portrait & Personal Info */}
         <div className="lg:col-span-5 space-y-6">
           <div className="relative group rounded-xl overflow-hidden border border-border-subtle bg-surface-card p-3 shadow-lg">
-            <div className="w-full aspect-square rounded-lg overflow-hidden bg-gradient-to-tr from-surface-container to-surface-container-high relative">
+            <div className="w-full max-w-[400px] sm:max-w-[400px] mx-auto aspect-square rounded-lg overflow-hidden bg-gradient-to-tr from-surface-container to-surface-container-high relative">
               <img
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                 alt="Narayana Maharana"
