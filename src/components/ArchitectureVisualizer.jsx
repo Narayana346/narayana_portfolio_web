@@ -249,6 +249,22 @@ function ArchitectureTab() {
                 <span className="text-code-cyan shrink-0">0 lag</span>
               </div>
             </div>
+
+            <div className="p-2.5 rounded-lg bg-surface-card border border-border-subtle hover:border-secondary transition-all">
+              <div className="flex items-center justify-between gap-2">
+                <div className="flex items-center gap-1.5">
+                  <span className="material-symbols-outlined text-[16px] text-secondary">inventory_2</span>
+                  <span className="text-[12px] font-bold text-on-surface">MinIO</span>
+                </div>
+                <span className="text-[9px] px-1.5 py-0.5 rounded bg-secondary/15 text-secondary font-mono">
+                  Object Store
+                </span>
+              </div>
+              <div className="mt-1.5 flex items-center justify-between gap-2 text-[10px] font-mono">
+                <span className="text-outline truncate">projects/&lt;id&gt;/ bucket</span>
+                <span className="text-code-cyan shrink-0">synced</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
