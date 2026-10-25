@@ -107,7 +107,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="pt-2 flex flex-col sm:flex-row items-center gap-4">
+            <div className="pt-2 flex flex-col sm:flex-row flex-wrap items-center gap-4">
               <a
                 className="w-full sm:flex-1 py-3 px-4 rounded bg-surface-container hover:bg-surface-card-hover border border-border-subtle text-on-surface flex items-center justify-center gap-2 text-label-md font-label-md font-mono transition-colors"
                 href="https://github.com/Narayana346"
@@ -119,12 +119,21 @@ export default function Contact() {
               </a>
               <a
                 className="w-full sm:flex-1 py-3 px-4 rounded bg-surface-container hover:bg-surface-card-hover border border-border-subtle text-on-surface flex items-center justify-center gap-2 text-label-md font-label-md font-mono transition-colors"
-                href="https://www.linkedin.com/in/narayan-maharan"
+                href="https://www.linkedin.com/in/narayana-maharana"
                 rel="noreferrer"
                 target="_blank"
               >
                 <LinkedInIcon className="w-4 h-4" />
                 <span>LinkedIn</span>
+              </a>
+              <a
+                className="w-full sm:flex-1 py-3 px-4 rounded bg-surface-container hover:bg-surface-card-hover border border-border-subtle text-on-surface flex items-center justify-center gap-2 text-label-md font-label-md font-mono transition-colors"
+                href="https://app.codingshuttle.com/profile/mah888763"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span className="material-symbols-outlined text-[16px]">rocket_launch</span>
+                <span>Coding Shuttle</span>
               </a>
             </div>
           </div>

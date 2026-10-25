@@ -47,12 +47,21 @@ export default function Navbar() {
           </a>
           <a
             className="p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high rounded border border-transparent hover:border-border-subtle transition-all duration-200"
-            href="https://www.linkedin.com/in/narayan-maharan"
+            href="https://www.linkedin.com/in/narayana-maharana"
             rel="noreferrer"
             target="_blank"
             title="LinkedIn Profile"
           >
             <LinkedInIcon />
+          </a>
+          <a
+            className="hidden sm:inline-flex p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high rounded border border-transparent hover:border-border-subtle transition-all duration-200"
+            href="https://app.codingshuttle.com/profile/mah888763"
+            rel="noreferrer"
+            target="_blank"
+            title="Coding Shuttle Profile"
+          >
+            <span className="material-symbols-outlined text-[20px]">rocket_launch</span>
           </a>
           <a
             className="inline-flex items-center gap-2 bg-primary text-on-primary hover:bg-primary-fixed-dim transition-all duration-200 active:scale-95 px-4 py-2 rounded text-label-md font-label-md font-semibold shadow-sm hover:shadow-[0_0_20px_rgba(99,102,241,0.35)]"
