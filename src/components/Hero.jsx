@@ -34,9 +34,11 @@ export default function Hero() {
         </div>
 
         <p className="text-body-lg font-body-lg text-on-surface-variant leading-relaxed max-w-xl">
-          Aspiring Java Backend Developer specialized in engineering resilient Spring Boot
-          microservices, high-throughput Hibernate ORMs, and secure RESTful endpoints designed for
-          production scale.
+          Java Backend Developer with 3+ years building scalable microservices and RESTful APIs
+          with Spring Boot, Hibernate and SQL — across fintech and ERP platforms, with a focus on
+          backend performance optimization and clean code practices. Currently building LLM-powered
+          developer tools with Spring AI — RAG over vector databases, tool-calling agents, and
+          Kafka-driven async pipelines.
         </p>
 
         <div className="flex flex-wrap items-center gap-2 pt-1 font-mono text-label-sm font-label-sm">
@@ -51,6 +53,10 @@ export default function Hero() {
           <div className="px-3 py-1.5 rounded bg-surface-container border border-border-subtle text-on-surface-variant flex items-center gap-2">
             <span className="material-symbols-outlined text-tertiary text-[15px]">badge</span>
             <span>Age: 22</span>
+          </div>
+          <div className="px-3 py-1.5 rounded bg-surface-container border border-border-subtle text-on-surface-variant flex items-center gap-2">
+            <span className="material-symbols-outlined text-terminal-amber text-[15px]">smart_toy</span>
+            <span>Spring AI / LLM</span>
           </div>
         </div>
 

@@ -57,15 +57,22 @@ export default function Projects() {
                   ))}
                 </div>
                 <div className="flex items-center justify-between pt-2 border-t border-border-subtle gap-2">
-                  <a
-                    className="text-code-cyan hover:text-primary transition-colors text-label-md font-label-md font-mono flex items-center gap-1.5"
-                    href={project.code}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span className="material-symbols-outlined text-[16px]">code</span>
-                    <span>Source Code</span>
-                  </a>
+                  {project.code ? (
+                    <a
+                      className="text-code-cyan hover:text-primary transition-colors text-label-md font-label-md font-mono flex items-center gap-1.5"
+                      href={project.code}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span className="material-symbols-outlined text-[16px]">code</span>
+                      <span>Source Code</span>
+                    </a>
+                  ) : (
+                    <span className="text-outline text-label-md font-label-md font-mono flex items-center gap-1.5">
+                      <span className="material-symbols-outlined text-[16px]">lock</span>
+                      <span>Private Repository</span>
+                    </span>
+                  )}
                   <span className="text-outline text-label-sm font-label-sm font-mono shrink-0">{project.status}</span>
                 </div>
               </div>

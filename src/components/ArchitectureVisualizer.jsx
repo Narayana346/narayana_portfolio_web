@@ -35,7 +35,7 @@ export default function ArchitectureVisualizer() {
                 onClick={() => setTab("code")}
               >
                 <span className="material-symbols-outlined text-[14px]">code</span>
-                <span className="hidden sm:inline">OrderController.java</span>
+                <span className="hidden sm:inline">ChatController.java</span>
                 <span className="sm:hidden">Code</span>
               </button>
             </div>
@@ -43,12 +43,12 @@ export default function ArchitectureVisualizer() {
 
           <div className="flex items-center gap-2">
             <span className="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container border border-border-subtle text-[11px] text-on-surface-variant font-mono">
-              <span className="material-symbols-outlined text-[13px] text-code-cyan">sync_alt</span>
-              Event Bus: Kafka
+              <span className="material-symbols-outlined text-[13px] text-code-cyan">travel_explore</span>
+              Registry: Eureka
             </span>
             <span className="text-label-sm font-label-sm text-secondary flex items-center gap-1.5 font-mono bg-secondary/10 px-2.5 py-0.5 rounded-full border border-secondary/20">
               <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
-              <span>ARCHITECTURE DEMO</span>
+              <span>MATRIX ARCHITECTURE</span>
             </span>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function ArchitectureVisualizer() {
         <div className="bg-surface-container px-4 py-2.5 border-t border-border-subtle flex flex-wrap items-center justify-between gap-2 text-label-sm font-label-sm text-on-surface-variant">
           <span className="flex items-center gap-1.5">
             <span className="material-symbols-outlined text-[14px] text-code-cyan">memory</span>
-            <span>Illustrative system design, not live production telemetry</span>
+            <span>Real service topology, illustrative runtime numbers</span>
           </span>
           <span className="text-secondary font-mono flex items-center gap-1">
             <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
@@ -76,17 +76,17 @@ function ArchitectureTab() {
     <div className="p-4 sm:p-5 bg-[#0a0e18]/90 space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border-subtle pb-3 text-label-sm font-mono text-on-surface-variant">
         <div className="flex items-center gap-2">
-          <span className="text-code-cyan font-semibold">SPRING CLOUD TOPOLOGY</span>
+          <span className="text-code-cyan font-semibold">MATRIX — AI CODE GEN AGENT</span>
           <span className="text-outline-variant">|</span>
-          <span className="text-terminal-amber">Microservices Mesh</span>
+          <span className="text-terminal-amber">7-Service Spring Cloud Mesh</span>
         </div>
         <div className="flex items-center gap-3 text-[11px]">
           <span className="flex items-center gap-1 text-secondary">
             <span className="w-1.5 h-1.5 rounded-full bg-secondary" />
-            Sample: 99.98% Uptime
+            Eureka: 7/7 UP
           </span>
           <span className="text-outline-variant">•</span>
-          <span className="text-primary-fixed-dim">HikariCP: 18/20 Conn</span>
+          <span className="text-primary-fixed-dim">Runner Pool: 3 idle</span>
         </div>
       </div>
 
@@ -103,8 +103,8 @@ function ArchitectureTab() {
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[20px] text-code-cyan">devices</span>
                 <div>
-                  <div className="text-[12px] font-bold text-on-surface">Client App</div>
-                  <div className="text-[10px] text-on-surface-variant">REST / WebSockets</div>
+                  <div className="text-[12px] font-bold text-on-surface">React + Vite Client</div>
+                  <div className="text-[10px] text-on-surface-variant">REST + SSE chat stream</div>
                 </div>
               </div>
             </div>
@@ -121,8 +121,8 @@ function ArchitectureTab() {
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[20px] text-code-cyan">route</span>
                 <div>
-                  <div className="text-[12px] font-bold text-on-surface">Cloud Reverse Proxy</div>
-                  <div className="text-[10px] text-on-surface-variant">Rate Limiting • JWT Filter</div>
+                  <div className="text-[12px] font-bold text-on-surface">Reactive WebFlux Proxy</div>
+                  <div className="text-[10px] text-on-surface-variant">JWT Filter • Eureka-routed</div>
                 </div>
               </div>
               <div className="mt-2 pt-1.5 border-t border-border-subtle/60 flex items-center justify-between gap-2 text-[10px]">
@@ -146,14 +146,14 @@ function ArchitectureTab() {
               <div className="flex items-center justify-between gap-2">
                 <div className="flex items-center gap-1.5">
                   <span className="material-symbols-outlined text-[16px] text-primary">security</span>
-                  <span className="text-[12px] font-bold text-on-surface">Auth Service</span>
+                  <span className="text-[12px] font-bold text-on-surface">Account Service</span>
                 </div>
                 <span className="text-[9px] px-1.5 py-0.5 rounded bg-primary/10 text-primary-fixed-dim font-mono">
-                  Spring Security
+                  Auth + Stripe
                 </span>
               </div>
               <div className="mt-1 text-[10px] text-on-surface-variant flex items-center justify-between gap-2">
-                <span>OAuth2 / JWT Tokens</span>
+                <span>JWT issue • Subscription plans</span>
                 <span className="text-secondary font-mono">200 OK</span>
               </div>
             </div>
@@ -161,37 +161,37 @@ function ArchitectureTab() {
             <div className="p-2.5 rounded-lg bg-surface-container-high border-2 border-secondary/60 hover:border-secondary transition-all shadow-[0_0_15px_rgba(78,222,163,0.18)]">
               <div className="flex items-center justify-between gap-2">
                 <div className="flex items-center gap-1.5">
-                  <span className="material-symbols-outlined text-[16px] text-secondary">shopping_cart_checkout</span>
-                  <span className="text-[12px] font-bold text-on-surface">Order Service</span>
+                  <span className="material-symbols-outlined text-[16px] text-secondary">folder_shared</span>
+                  <span className="text-[12px] font-bold text-on-surface">Workspace Service</span>
                 </div>
-                <span className="text-[9px] px-1.5 py-0.5 rounded bg-secondary/15 text-secondary font-mono">REST + JPA</span>
+                <span className="text-[9px] px-1.5 py-0.5 rounded bg-secondary/15 text-secondary font-mono">REST + MinIO</span>
               </div>
               <div className="mt-1.5 flex items-center gap-1.5 text-[10px] font-mono text-on-surface-variant">
-                <span className="px-1 rounded bg-surface-card border border-border-subtle text-code-cyan">Controller</span>
+                <span className="px-1 rounded bg-surface-card border border-border-subtle text-code-cyan">Project</span>
                 <span>→</span>
-                <span className="px-1 rounded bg-surface-card border border-border-subtle text-terminal-amber">Service</span>
+                <span className="px-1 rounded bg-surface-card border border-border-subtle text-terminal-amber">Files</span>
                 <span>→</span>
-                <span className="px-1 rounded bg-surface-card border border-border-subtle text-secondary">Repo</span>
+                <span className="px-1 rounded bg-surface-card border border-border-subtle text-secondary">K8s Deploy</span>
               </div>
               <div className="mt-2 pt-1 border-t border-border-subtle flex items-center justify-between gap-2 text-[10px]">
-                <span className="text-outline">Sample throughput:</span>
-                <span className="text-code-cyan font-mono font-medium">1,420 req/s</span>
+                <span className="text-outline">RBAC:</span>
+                <span className="text-code-cyan font-mono font-medium">Owner / Editor / Viewer</span>
               </div>
             </div>
 
             <div className="p-2.5 rounded-lg bg-surface-card border border-border-subtle hover:border-terminal-amber transition-all">
               <div className="flex items-center justify-between gap-2">
                 <div className="flex items-center gap-1.5">
-                  <span className="material-symbols-outlined text-[16px] text-terminal-amber">payments</span>
-                  <span className="text-[12px] font-bold text-on-surface">Payment Worker</span>
+                  <span className="material-symbols-outlined text-[16px] text-terminal-amber">smart_toy</span>
+                  <span className="text-[12px] font-bold text-on-surface">Intelligence Service</span>
                 </div>
                 <span className="text-[9px] px-1.5 py-0.5 rounded bg-terminal-amber/10 text-terminal-amber font-mono">
-                  Async WebClient
+                  Spring AI
                 </span>
               </div>
               <div className="mt-1 text-[10px] text-on-surface-variant flex items-center justify-between gap-2">
-                <span>Idempotent Webhooks</span>
-                <span className="text-secondary font-mono">P99: 14ms</span>
+                <span>Tool-call: read_files • file-tree context</span>
+                <span className="text-secondary font-mono">SSE</span>
               </div>
             </div>
           </div>
@@ -206,31 +206,31 @@ function ArchitectureTab() {
 
           {/* Layer 3: Data */}
           <div className="md:col-span-3 space-y-2.5">
-            <div className="p-2.5 rounded-lg bg-surface-card border border-border-subtle hover:border-[#EF4444] transition-all">
-              <div className="flex items-center justify-between gap-2">
-                <div className="flex items-center gap-1.5">
-                  <span className="material-symbols-outlined text-[16px] text-[#EF4444]">bolt</span>
-                  <span className="text-[12px] font-bold text-on-surface">Redis Cache</span>
-                </div>
-                <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#EF4444]/15 text-[#ff8f8f] font-mono">Cluster</span>
-              </div>
-              <div className="mt-1.5 flex items-center justify-between gap-2 text-[10px] font-mono">
-                <span className="text-outline">Hit Ratio:</span>
-                <span className="text-secondary font-semibold">94.8% Hit</span>
-              </div>
-            </div>
-
             <div className="p-2.5 rounded-lg bg-surface-card border border-border-subtle hover:border-tertiary transition-all">
               <div className="flex items-center justify-between gap-2">
                 <div className="flex items-center gap-1.5">
                   <span className="material-symbols-outlined text-[16px] text-tertiary">database</span>
-                  <span className="text-[12px] font-bold text-on-surface">MySQL RDBMS</span>
+                  <span className="text-[12px] font-bold text-on-surface">PostgreSQL</span>
                 </div>
                 <span className="text-[9px] px-1.5 py-0.5 rounded bg-tertiary/15 text-tertiary font-mono">Hibernate</span>
               </div>
               <div className="mt-1.5 flex items-center justify-between gap-2 text-[10px] font-mono">
-                <span className="text-outline">HikariCP Pool:</span>
-                <span className="text-secondary">18 / 20 Active</span>
+                <span className="text-outline shrink-0">DBs:</span>
+                <span className="text-secondary truncate">account/workspace/intel</span>
+              </div>
+            </div>
+
+            <div className="p-2.5 rounded-lg bg-surface-card border border-border-subtle hover:border-[#EF4444] transition-all">
+              <div className="flex items-center justify-between gap-2">
+                <div className="flex items-center gap-1.5">
+                  <span className="material-symbols-outlined text-[16px] text-[#EF4444]">bolt</span>
+                  <span className="text-[12px] font-bold text-on-surface">Redis</span>
+                </div>
+                <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#EF4444]/15 text-[#ff8f8f] font-mono">Route Cache</span>
+              </div>
+              <div className="mt-1.5 flex items-center justify-between gap-2 text-[10px] font-mono">
+                <span className="text-outline">project → pod IP:</span>
+                <span className="text-secondary font-semibold">TTL 6h</span>
               </div>
             </div>
 
@@ -238,14 +238,14 @@ function ArchitectureTab() {
               <div className="flex items-center justify-between gap-2">
                 <div className="flex items-center gap-1.5">
                   <span className="material-symbols-outlined text-[16px] text-terminal-amber">sync_alt</span>
-                  <span className="text-[12px] font-bold text-on-surface">Kafka Broker</span>
+                  <span className="text-[12px] font-bold text-on-surface">Kafka</span>
                 </div>
                 <span className="text-[9px] px-1.5 py-0.5 rounded bg-terminal-amber/15 text-terminal-amber font-mono">
-                  Event Bus
+                  Saga Events
                 </span>
               </div>
               <div className="mt-1.5 flex items-center justify-between gap-2 text-[10px] font-mono">
-                <span className="text-outline truncate">Topic: order-events</span>
+                <span className="text-outline truncate">file-storage-request/response</span>
                 <span className="text-code-cyan shrink-0">0 lag</span>
               </div>
             </div>
@@ -253,18 +253,48 @@ function ArchitectureTab() {
         </div>
       </div>
 
+      <div className="space-y-2">
+        <div className="text-[11px] font-mono text-on-surface-variant flex items-center gap-2">
+          <span className="text-terminal-amber font-semibold">ASYNC</span>
+          <span className="text-outline-variant">|</span>
+          <span>Durable Writes &amp; Live Preview Infra</span>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          <div className="p-2.5 rounded-lg bg-surface-card border border-border-subtle hover:border-terminal-amber/60 transition-all">
+            <div className="flex items-center gap-1.5 mb-1">
+              <span className="material-symbols-outlined text-[16px] text-terminal-amber">fact_check</span>
+              <span className="text-[12px] font-bold text-on-surface">Kafka Saga</span>
+            </div>
+            <p className="text-[10px] text-on-surface-variant leading-relaxed">
+              LLM file edits are published as events; a saga handler confirms or fails each write
+              idempotently once MinIO storage acks back.
+            </p>
+          </div>
+          <div className="p-2.5 rounded-lg bg-surface-card border border-border-subtle hover:border-code-cyan/60 transition-all">
+            <div className="flex items-center gap-1.5 mb-1">
+              <span className="material-symbols-outlined text-[16px] text-code-cyan">deployed_code</span>
+              <span className="text-[12px] font-bold text-on-surface">K8s Runner Pool</span>
+            </div>
+            <p className="text-[10px] text-on-surface-variant leading-relaxed">
+              Warm pods are claimed per project, synced from MinIO via <code>mc mirror</code> and run
+              <code> npm run dev</code> — routed through a proxy at project-&lt;id&gt;.domain.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1 font-mono text-[11px]">
         <div className="p-2 rounded bg-surface-container border border-border-subtle flex items-center justify-between gap-2">
-          <span className="text-outline">JVM Heap:</span>
-          <span className="text-on-surface font-semibold">64MB / 512MB</span>
+          <span className="text-outline">Services Up:</span>
+          <span className="text-on-surface font-semibold">7 / 7</span>
         </div>
         <div className="p-2 rounded bg-surface-container border border-border-subtle flex items-center justify-between gap-2">
-          <span className="text-outline">P99 Latency:</span>
-          <span className="text-secondary font-semibold">14ms</span>
+          <span className="text-outline">Kafka Lag:</span>
+          <span className="text-secondary font-semibold">0 msgs</span>
         </div>
         <div className="p-2 rounded bg-surface-container border border-border-subtle flex items-center justify-between gap-2">
-          <span className="text-outline">GC Pauses:</span>
-          <span className="text-code-cyan font-semibold">&lt; 2ms (ZGC)</span>
+          <span className="text-outline">Idle Runners:</span>
+          <span className="text-code-cyan font-semibold">3 pods</span>
         </div>
         <div className="p-2 rounded bg-surface-container border border-border-subtle flex items-center justify-between gap-2">
           <span className="text-outline">Actuator:</span>
@@ -280,41 +310,57 @@ function ArchitectureTab() {
 function CodeTab() {
   return (
     <div className="p-5 text-label-md font-label-md overflow-x-auto space-y-1.5 leading-relaxed bg-[#0a0e18]/80 font-mono">
-      <p className="text-outline-variant font-mono">// Spring Boot REST Microservice</p>
+      <p className="text-outline-variant font-mono">{"// Intelligence Service — SSE code-gen stream"}</p>
       <p>
         <span className="text-primary-fixed-dim">@RestController</span>
       </p>
       <p>
-        <span className="text-primary-fixed-dim">@RequestMapping</span>(<span className="text-code-cyan">&quot;/api/v1/orders&quot;</span>)
+        <span className="text-primary-fixed-dim">@RequestMapping</span>(<span className="text-code-cyan">&quot;/chat&quot;</span>)
       </p>
       <p className="text-on-surface">
-        <span className="text-tertiary">public class</span> <span className="text-terminal-amber">OrderController</span> {"{"}
+        <span className="text-tertiary">public class</span> <span className="text-terminal-amber">ChatController</span> {"{"}
       </p>
       <p className="pl-4 text-on-surface-variant">
-        <span className="text-primary-fixed-dim">@Autowired</span>
-      </p>
-      <p className="pl-4 text-on-surface-variant">
-        <span className="text-tertiary">private</span> OrderService <span className="text-on-surface">orderService</span>;
+        <span className="text-tertiary">private final</span> AiGenerationService <span className="text-on-surface">aiGenerationService</span>;
       </p>
       <br />
       <p className="pl-4">
-        <span className="text-primary-fixed-dim">@PostMapping</span>(consumes = MediaType.
-        <span className="text-secondary">APPLICATION_JSON_VALUE</span>)
+        <span className="text-primary-fixed-dim">@PostMapping</span>(value = <span className="text-code-cyan">&quot;/stream&quot;</span>, produces = MediaType.<span className="text-secondary">TEXT_EVENT_STREAM_VALUE</span>)
       </p>
       <p className="pl-4">
-        <span className="text-tertiary">public</span> ResponseEntity&lt;OrderDTO&gt; <span className="text-secondary">createOrder</span>(
+        <span className="text-tertiary">public</span> Flux&lt;ServerSentEvent&lt;StreamResponse&gt;&gt; <span className="text-secondary">streamChat</span>(
       </p>
       <p className="pl-8 text-on-surface-variant">
-        <span className="text-primary-fixed-dim">@Valid @RequestBody</span> OrderRequest payload) {"{"}
+        <span className="text-primary-fixed-dim">@RequestBody</span> ChatRequest request) {"{"}
       </p>
       <p className="pl-8 text-on-surface-variant">
-        OrderDTO record = orderService.<span className="text-code-cyan">processTransaction</span>(payload);
+        <span className="text-tertiary">return</span> aiGenerationService
       </p>
-      <p className="pl-8 text-on-surface-variant">
-        <span className="text-tertiary">return</span> ResponseEntity.<span className="text-secondary">ok</span>(record);
+      <p className="pl-10 text-on-surface-variant">
+        .<span className="text-code-cyan">streamResponse</span>(request.message(), request.projectId())
+      </p>
+      <p className="pl-10 text-on-surface-variant">
+        .<span className="text-code-cyan">map</span>(data -&gt; ServerSentEvent.&lt;StreamResponse&gt;builder().<span className="text-secondary">data</span>(data).<span className="text-secondary">build</span>());
       </p>
       <p className="pl-4 text-on-surface">{"}"}</p>
       <p className="text-on-surface">{"}"}</p>
+      <br />
+      <p className="text-outline-variant font-mono">{"// AiGenerationServiceImpl — tool-calling + file-tree context"}</p>
+      <p className="text-on-surface-variant">
+        chatClient.prompt()
+      </p>
+      <p className="pl-4 text-on-surface-variant">
+        .<span className="text-code-cyan">system</span>(PromptUtils.<span className="text-secondary">CODE_GENERATION_SYSTEM_PROMPT</span>)
+      </p>
+      <p className="pl-4 text-on-surface-variant">
+        .<span className="text-code-cyan">tools</span>(<span className="text-terminal-amber">codeGenerationTools</span>) <span className="text-outline-variant">{"// read_files tool"}</span>
+      </p>
+      <p className="pl-4 text-on-surface-variant">
+        .<span className="text-code-cyan">advisors</span>(fileTreeContextAdvisor) <span className="text-outline-variant">{"// injects FILE_TREE"}</span>
+      </p>
+      <p className="pl-4 text-on-surface-variant">
+        .<span className="text-code-cyan">stream</span>().<span className="text-code-cyan">chatResponse</span>();
+      </p>
     </div>
   );
 }

@@ -3,25 +3,25 @@ const CAPABILITIES = [
     icon: "dns",
     iconBg: "bg-primary/10 text-primary",
     title: "Core Stack",
-    desc: "Core Java (17/21), OOP, Concurrency, Spring Boot, Hibernate ORM, Maven build pipelines.",
+    desc: "Java 8/11, Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Hibernate ORM, Maven & Gradle build pipelines.",
   },
   {
     icon: "database",
     iconBg: "bg-secondary/10 text-secondary",
-    title: "Databases & ORM",
-    desc: "MySQL schemas, MongoDB document persistence, JDBC connection pools, indexing & query optimization.",
+    title: "Databases & Messaging",
+    desc: "MySQL & PostgreSQL schema design, Redis caching, Kafka & RabbitMQ event streaming, query & index optimization.",
   },
   {
     icon: "api",
     iconBg: "bg-code-cyan/10 text-code-cyan",
-    title: "API & Architecture",
-    desc: "RESTful Web Services, JSON serialization, Spring Security JWT authentication, MVC clean layers.",
+    title: "API & Microservices",
+    desc: "RESTful API design, Spring Cloud with Eureka service discovery, Config Server & API Gateway, JWT authentication.",
   },
   {
-    icon: "terminal",
+    icon: "cloud",
     iconBg: "bg-tertiary/10 text-tertiary",
-    title: "Engineering Tooling",
-    desc: "IntelliJ IDEA Ultimate, Eclipse IDE, VS Code, Git branching & pull request workflows, GitHub Actions.",
+    title: "Cloud & DevOps",
+    desc: "AWS & AWS S3, Firebase, Docker containerization, Git/GitHub workflows, JIRA, Postman & JUnit testing.",
   },
 ];
 
