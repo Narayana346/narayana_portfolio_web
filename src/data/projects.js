@@ -6,7 +6,7 @@ export const projects = [
     version: "v1.0.0",
     versionColor: "bg-secondary/10 text-secondary",
     title: "Matrix — AI Code Generation Agent",
-    desc: "A distributed, Lovable-style AI app builder: 7 Spring Boot microservices behind a reactive API Gateway, with Spring AI driving an LLM code-generation agent — RAG over a vector database, tool-calling, a Kafka saga for durable file writes, and Kubernetes-orchestrated live previews.",
+    desc: "Matrix AI Agent — a distributed AI app builder: 7 Spring Boot microservices behind a reactive API Gateway, with Spring AI driving an LLM code-generation agent — RAG over a vector database, tool-calling, a Kafka saga for durable file writes, and Kubernetes-orchestrated live previews.",
     highlights: [
       "RAG over a vector database (pgvector) for context-aware code generation",
       "Tool-calling LLM reads only the files it needs via a file-tree-aware advisor",
