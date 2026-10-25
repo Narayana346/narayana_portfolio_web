@@ -13,7 +13,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-surface-container-lowest border-t border-border-subtle">
-      <div className="w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
+      <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 xl:px-16 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="space-y-2 text-center md:text-left">
           <div className="text-headline-md font-headline-md font-bold text-on-surface font-mono flex items-center justify-center md:justify-start gap-2">
             <span className="text-code-cyan">&lt;NM</span>

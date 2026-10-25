@@ -35,7 +35,7 @@ export default function App() {
       <div className="fixed bottom-10 left-10 w-[450px] h-[450px] bg-tertiary-container/10 rounded-full blur-[140px] pointer-events-none -z-10" />
 
       <Navbar />
-      <main className="w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 space-y-space-3xl pt-10 pb-20">
+      <main className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 xl:px-16 space-y-space-3xl pt-10 pb-20">
         <Hero />
         <About />
         <Skills />

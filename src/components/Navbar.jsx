@@ -11,7 +11,7 @@ const NAV_LINKS = [
 export default function Navbar() {
   return (
     <header className="bg-surface-base/80 backdrop-blur-md sticky top-0 z-50 border-b border-border-subtle">
-      <div className="flex justify-between items-center w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="flex justify-between items-center w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 xl:px-16 py-4">
         <a
           className="text-headline-md font-headline-md font-bold tracking-tight text-on-surface font-mono flex items-center gap-2 group"
           href="#"
